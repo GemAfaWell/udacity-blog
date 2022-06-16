@@ -1,0 +1,19 @@
+h3{
+    font: small-caps bold 24px Luminari;
+    text-align: center;
+  }
+#signature{
+    font: bold 24px Snell Roundhand;
+    text-align: center;
+  }
+.content{
+  padding: 15px;
+}
+figure img{
+    width: 150px;
+    height: 120px;
+}
+blockquote{
+    font: small-caps bold 16px sans-serif;
+    text-align: center;
+}

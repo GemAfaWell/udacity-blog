@@ -1,0 +1,15 @@
+@media(min-width:341px) and (max-width:598px){
+  .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 300px 1400px;
+    grid-template-areas:
+    "hd"
+    "sd"
+    "main"
+    "ft";
+    background-color: white;
+    border: 2px solid black;
+    font: 12px;
+  }
+}

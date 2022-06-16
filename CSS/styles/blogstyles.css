@@ -1,0 +1,46 @@
+@import "screens/tinyscreen.css" screen;
+@import "screens/smallscreen.css" screen;
+@import "screens/mediumscreen.css" screen;
+@import "screens/bigscreen.css" screen;
+
+.nestedGrid{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.nestedGrid{
+  border: 2px solid purple;
+}
+
+.box{
+  border: 1px solid purple;
+  background: purple;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area:hd;
+  font: small-caps bold 72px;
+  border: 5px ridge purple;
+  background-color: turquoise;
+}
+.footer{
+  grid-area: ft;
+  text-align: center;
+}
+.sidebar{
+  grid-area: sd;
+  text-align: center;
+  border: 2px ridge purple;
+}
+.content{
+  grid-area: main;
+  text-align: center;
+  border: 2px ridge purple;
+}
+.minicontainer{
+  display: flex;
+  justify-content: center;
+}
